@@ -1,6 +1,7 @@
-@import "./base/reset";
-@import "./base/base";
+@import './variables/colors';
+@import './base/reset';
+@import './base/base';
 
-@import ".//variables/colors";
-
-@import "./main/main-background";
+@import './main/main-background';
+@import './main/projects-list';
+@import './main/circles';

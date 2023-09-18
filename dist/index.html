@@ -9,38 +9,123 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <main>
-      <section class="main-background">
-        <h1>PORTFOLIO</h1>
-        <p>
-          Hello, my name is Igor Nechai, I am a Full Stack Developer, and I
-          write code clearly and responsibly. And this is my portfolio. Here you
-          will can see my projects. Enjoy.
+      <section class="main-background container">
+        <div class="project-card">
+          <h1 class="main-title" data-aos="zoom-in-down">PORTFOLIO</h1>
+        </div>
+
+        <p class="main-about" data-aos="zoom-in-up">
+          Hello, my name is Ihor Nechai, I am a Full Stack Developer, and I write code
+          clearly and responsibly. And this is my portfolio. Here you can see my projects.
+          Enjoy.
         </p>
-        <a href="https://pets-zywq.onrender.com/api-docs/#/" target="_blank"
-          >Pets-beckend</a
-        >
-        - link to swagger
-        <a href="http://fredduke1983.github.io/Resume/" target="_blank"
-          >my CV</a
-        >
-        <a
-          href="https://fredduke1983.github.io/goit-react-hw-08-phonebook"
-          target="_blank"
-          >Phonebook</a
-        >
-        <a
-          href="https://fredduke1983.github.io/goit-react-hw-05-movies"
-          target="_blank"
-          >Actually movies info</a
-        >
-        <a href="https://bamboo-paradise.netlify.app/" target="_blank"
-          >Bamboo-paradise</a
-        >
+        <ul class="projects-list">
+          <li class="title-item">
+            <h1 class="projects-title animate" data-aos="new-animation">My projects</h1>
+            <p class="projects-swipe animated-box" data-aos="flip-left">Swipe down</p>
+          </li>
+          <li class="projects-item left pets" data-aos="fade-up-left">
+            <a
+              class="main-link"
+              href="https://pets-zywq.onrender.com/api-docs/#/"
+              target="_blank"
+              ><p class="main-link-title">Node+Express</p></a
+            >
+            <a
+              class="add-link"
+              href="https://pets-zywq.onrender.com/api-docs/#/"
+              target="_blank"
+            >
+              <p class="project-name">Pets-beckend - link to swagger</p>
+            </a>
+          </li>
+
+          <li class="projects-item right resume" data-aos="fade-up-right">
+            <a
+              class="main-link"
+              href="http://fredduke1983.github.io/Resume/"
+              target="_blank"
+              ><p class="main-link-title">HTML+CSS</p></a
+            >
+            <a
+              class="add-link"
+              href="http://fredduke1983.github.io/Resume/"
+              target="_blank"
+            >
+              <p class="project-name">Curriculum Vitae</p>
+            </a>
+          </li>
+
+          <li class="projects-item left phonebook" data-aos="fade-up-left">
+            <a
+              class="main-link"
+              href="https://fredduke1983.github.io/goit-react-hw-08-phonebook"
+              target="_blank"
+              ><p class="main-link-title">React+Redux</p></a
+            >
+            <a
+              class="add-link"
+              href="https://fredduke1983.github.io/goit-react-hw-08-phonebook"
+              target="_blank"
+            >
+              <p class="project-name">Phonebook</p>
+            </a>
+          </li>
+
+          <li class="projects-item right movies" data-aos="fade-up-right">
+            <a
+              class="main-link"
+              href="https://fredduke1983.github.io/goit-react-hw-05-movies"
+              target="_blank"
+              ><p class="main-link-title">React+Redux</p></a
+            >
+            <a
+              class="add-link"
+              href="https://fredduke1983.github.io/goit-react-hw-05-movies"
+              target="_blank"
+            >
+              <p class="project-name">Current movies today</p>
+            </a>
+          </li>
+
+          <li class="projects-item left bamboo" data-aos="fade-up-left">
+            <a
+              class="main-link"
+              href="https://bamboo-paradise.netlify.app/"
+              target="_blank"
+              ><p class="main-link-title">React+Redux+Node</p></a
+            >
+            <a
+              class="add-link"
+              href="https://bamboo-paradise.netlify.app/"
+              target="_blank"
+            >
+              <p class="project-name">Bamboo-paradise</p>
+            </a>
+          </li>
+
+          <li class="circle circle1 rellax" data-rellax-speed="2"></li>
+          <li class="circle circle2 rellax" data-rellax-speed="3"></li>
+          <li class="circle circle3 rellax" data-rellax-speed="4"></li>
+          <li class="circle circle4 rellax" data-rellax-speed="2"></li>
+          <li class="circle circle5 rellax" data-rellax-speed="3"></li>
+          <li class="circle circle6 rellax" data-rellax-speed="5"></li>
+          <li class="circle circle7 rellax" data-rellax-speed="2"></li>
+          <li class="circle circle8 rellax" data-rellax-speed="1"></li>
+          <li class="circle circle9 rellax" data-rellax-speed="7"></li>
+          <li class="circle circle10 rellax" data-rellax-speed="3"></li>
+          <li class="circle circle11 rellax" data-rellax-speed="6"></li>
+          <li class="circle circle12 rellax" data-rellax-speed="2"></li>
+        </ul>
       </section>
     </main>
     <script src="bundle.js"></script>

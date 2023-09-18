@@ -24,6 +24,9 @@ li {
 
 a {
   text-decoration: none;
+  &:visited {
+    color: var(--main-text-color);
+  }
 }
 
 button {
