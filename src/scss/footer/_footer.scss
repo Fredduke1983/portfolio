@@ -1,0 +1,24 @@
+.footer {
+  padding: 40px 0;
+  background: rgb(241, 241, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 241, 238, 1) 27%,
+    rgba(160, 65, 219, 1) 100%
+  );
+}
+
+.footer-item {
+  margin: 12px 0;
+  a,
+  address {
+    cursor: pointer;
+    color: var(--main-bg-color);
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 300ms;
+    &:hover {
+      color: var(--add-link-color);
+    }
+  }
+}

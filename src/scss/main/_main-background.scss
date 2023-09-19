@@ -6,14 +6,22 @@
 }
 
 .main-title {
-  padding: 40px 20px;
-  z-index: 2;
   color: var(--main-title-color);
   font-family: 'Lobster', cursive;
-  font-size: 60px;
-  line-height: 1.2;
-  letter-spacing: 20px;
   text-shadow: 3px 3px 5px #f8f8f8;
+  z-index: 2;
+
+  @media screen and (min-width: 320px) {
+    padding: 20px 0;
+    font-size: 26px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 20px;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 20px;
+  }
 }
 
 .main-about {

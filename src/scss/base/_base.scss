@@ -4,5 +4,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .container {
-  padding: 0 60px;
+  @media screen and (min-width: 320px) {
+    padding: 0 8px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 60px;
+  }
 }
